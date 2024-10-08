@@ -1,0 +1,123 @@
+/* manage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bb1313; /* light gray background */
+    background-image: url(Images/world-blood-donor-background-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    background-color: #c0392b; /* deep red background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    
+  }
+  
+  .form-section {
+    background-color: #fff;
+    padding: 60px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 40vw;
+  
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button.btn.primary {
+    background-color: #c0392b; /* deep red background */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px}
+
+    button.btn.primary:hover {
+        background-color: #8e0d0d; /* darker red background on hover */
+      }
+      
+      button.btn.primary:active {
+        background-color: #c0392b; /* deep red background on active */
+        transform: translateY(2px);
+      }
+      
+      /* Add some animations to make it more happening */
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
+      button.btn.primary {
+        animation: pulse 2s infinite;
+      }
+form .msg a{
+    text-decoration: none;
+    color: #ddd;
+}
+      
+      /* Add some red color to the form fields on focus */
+      input[type="text"]:focus, select:focus {
+        border-color: #c0392b; /* deep red border on focus */
+        box-shadow: 0 0 10px rgba(192, 57, 43, 0.5); /* deep red shadow on focus */
+      }
+      
+      /* Add some red color to the form labels */
+      label {
+        color: #c0392b; /* deep red color for labels */
+      }
+      
+      /* Add some red color to the form section background */
+      .form-section {
+        background-color: #f9e4e4; /* light red background */
+      }
+
+   

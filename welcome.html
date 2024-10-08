@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blood Banking Management System</title>
+    <link rel="icon" href='./Images/OIP.jpeg' type="image/png">
+    <link rel="stylesheet" href="manage.css"> <!-- link to external CSS file -->
+    <style>
+        .msg{
+            width: 7rem;
+            background-color: brown;
+            height: 2rem;
+            text-align: center;
+            text-decoration: none;
+            color: wheat;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+      
+    </style>
+</head>
+<body>
+    
+    </div>
+    <div class="container">
+        <header>
+            <h1>Blood Banking Management System</h1>
+        </header>
+        <main>
+            <section class="form-section">
+                <h2>Request Blood</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="location">Where do you live?</label>
+                        <input type="text" id="location" name="location" placeholder="City, State, or Zip">
+                    </div>
+                    <div class="form-group">
+                        <label for="blood-type">What blood type do you need?</label>
+                        <select id="blood-type" name="blood-type">
+                            <option value="">Select Blood Type</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="when">When do you need the blood?</label>
+                        <input type="date" id="when" name="when">
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" name="location" placeholder="Hospital, Clinic, or Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="relationship">Relationship to patient</label>
+                        <select id="relationship" name="relationship">
+                            <option value="">Select Relationship</option>
+                            <option value="Self">Self</option>
+                            <option value="Family Member">Family Member</option>
+                            <option value="Friend">Friend</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                  <div class="msg">
+                    <a href="msg.html" class="btn primary">Request Blood</a>
+                  </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- animate the site with JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
